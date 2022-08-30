@@ -44,7 +44,8 @@ let minA = alturaT.reduce(function (prev, current) {
 
 });
 
-console.log(`A menor altura do grupo: ${minA}`);
+console.log(`A menor altura do grupo: ${minA}.`);
+
 
 
 var somahN = 0;
