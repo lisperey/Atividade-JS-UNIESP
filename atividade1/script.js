@@ -2,7 +2,7 @@ var alturaH = [];
 var alturaM = [];
 var alturaT = [];
 
-for(let i = 0; i <3; i++){
+for(let i = 0; i <15; i++){
     var a = parseFloat(prompt("Informe sua altura: "));
     var s = prompt("Informe seu sexo(m- masculino e f- feminino): ");
 
