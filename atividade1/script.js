@@ -3,7 +3,7 @@ var alturaM = [];
 var alturaT = [];
 
 for(let i = 0; i <15; i++){
-    var a = prompt("Informe sua altura: ");
+    var a = parseFloat(prompt("Informe sua altura: "));
     var s = prompt("Informe seu sexo(m- masculino e f- feminino): ");
 
     alturaT.push(a);
@@ -51,7 +51,7 @@ console.log(`A menor altura do grupo: ${minA}.`);
 var somahN = 0;
 for(x in alturaH){
     
-    somahN += parseFloat(alturaH[x]); 
+    somahN += alturaH[x]; 
 }
 
 let media = somahN/alturaH.length;
