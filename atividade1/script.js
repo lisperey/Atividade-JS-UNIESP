@@ -37,8 +37,14 @@ let maxA = alturaT.reduce(function (prev, current) {
 
 });
 
-
 console.log(`Maior altura do grupo: ${maxA}.`);
+
+let minA = alturaT.reduce(function (prev, current) { 
+	return prev < current ? prev : current;
+
+});
+
+console.log(`A menor altura do grupo: ${minA}`);
 
 
 var somahN = 0;
